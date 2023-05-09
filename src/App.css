@@ -1,0 +1,47 @@
+html{
+  scroll-snap-type: y mandatory;
+}
+
+.App{
+  height:100%;
+  background-color: rgb(255, 255, 255);
+}
+.ImagePopup{
+  height: 100vh;
+width: 100vw;
+}
+.Input{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.Input>input, select{
+  height: 40px;
+width: 300px;
+border-radius: 12px;
+}
+
+input[type='radio']{
+  display: none;
+}
+.radiobtn{
+  border: 1px solid #ccc;
+  padding: 1px 3px;
+}
+.form{
+  font-size: 25px;
+  height: 100%;
+width: 67%;
+}
+.Button{
+  align-items: center;
+position: absolute;
+display: flex;
+left: 20%;
+padding: 11px 68px;
+margin: 50px;
+font-size: 17px;
+background-color: #ff3000;
+color: white;
+border-radius: 27px;
+}
